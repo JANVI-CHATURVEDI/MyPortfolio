@@ -77,3 +77,46 @@ function slideRight() {
 function slideLeft() {
   document.getElementById("slider").scrollLeft -= 350;
 }
+
+
+
+
+
+
+
+particlesJS('rain-background', {
+  "particles": {
+    "number": {
+      "value": 150,
+      "density": {
+        "enable": true,
+        "value_area": 800
+      }
+    },
+    "color": { "value": "#00ffff" },
+    "shape": { "type": "line" },
+    "opacity": {
+      "value": 0.2,
+      "random": true
+    },
+    "size": {
+      "value": 1,
+      "random": true
+    },
+    "move": {
+      "enable": true,
+      "speed": 2,
+      "direction": "bottom",
+      "straight": true,
+      "out_mode": "out"
+    }
+  },
+  "interactivity": {
+    "events": {
+      "onhover": { "enable": false },
+      "onclick": { "enable": false },
+      "resize": true
+    }
+  },
+  "retina_detect": true
+});
