@@ -62,7 +62,9 @@ body, html {
   overflow: hidden;
 }
 
-
+.bottom-box a{
+  text-decoration: none;
+}
 
 .bottom-box p {
   margin-bottom: 30px;
