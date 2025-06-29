@@ -5,16 +5,19 @@
 
 }
 
-html,
-body {
+html, body {
   margin: 0;
+  padding: 0;
   height: 100%;
-  /* background-color: #111; */
   background-image: url('background.jfif');
-  overflow: hidden;
-  /* stop full page from scrolling */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
   font-family: sans-serif;
+  overflow-x: hidden; /* ✅ Only hide horizontal scroll */
 }
+
+
 
 .container {
   display: flex;
