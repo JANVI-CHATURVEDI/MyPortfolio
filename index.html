@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Janvi’s Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+</head>
+
+<body>
+
+  <!-- 🔽 Hidden Full-Screen Project Slider -->
+  <section id="project-slider-section" class="slider-overlay hidden">
+    <div class="slider-header">
+      <span class="close" onclick="hideSlider()"> Go Back</span>
+      <div>
+        <button class="arrow left" onclick="slideLeft()">←</button>
+        <button class="arrow right" onclick="slideRight()">→</button>
+      </div>
+    </div>
+    <div id="slider" class="project-slider"></div>
+  </section>
+
+
+  <div class="container">
+
+    <!-- 🧱 Left Fixed Column -->
+    <div class="left-wrapper">
+      <div class="left-column">
+        <img class="profile-img" src="image.jpeg" alt="Janvi's Image" />
+        <div class="social-note">Most active on X</div>
+      </div>
+
+      <div class="bottom-box">
+        <p>GET IN TOUCH</p>
+        <a href="https://x.com/cjanvi1010" target="_blank">
+          <img class="icon" src="x.jfif" alt="X" />
+        </a>
+        <a href="https://github.com/JANVI-CHATURVEDI" target="_blank">
+          <img class="icon" src="github.jpg" alt="GitHub" />
+        </a>
+        <a href="https://www.linkedin.com/in/janvi1010/" target="_blank">
+          <img class="icon " src="linkedin.jfif" alt="linkedin" />
+        </a>
+        <a href="mailto:cjanvi1010@gmail.com">
+          <img class="icon" src="email.jfif" alt="Email" />
+        </a>
+      </div>
+    </div>
+
+    <!-- 🖥️ Right Scrollable Content -->
+    <div class="right-column">
+      <section class="about">
+        <h1>About</h1>
+        <p>Hello! I'm Janvi, a frontend developer.</p>
+        <p>I craft beautiful, responsive websites that blend design and functionality. Passionate about building
+          impactful digital experiences using HTML, CSS, JavaScript, React, and Tailwind. Currently leveling up through
+          hands-on projects and daily learning.</p>
+      </section>
+
+      <div class="divide">
+
+
+        <section class="skills">
+          <h1>Skills</h1>
+
+          <div>Languages :</div>
+          <div class="skills1 languages">
+
+            <div class="text">C</div>
+            <div class="text">C++</div>
+            <div class="text">Java</div>
+            <div class="text">JavaScript</div>
+
+          </div>
+
+          <div>Frontend :</div>
+          <div class="skills1 frontend">
+
+            <div class="text">Html</div>
+            <div class="text">CSS</div>
+            <div class="text">JavaScript</div>
+            <div class="text">React</div>
+          </div>
+
+          <div>Tools :</div>
+          <div class="skills1 tools">
+
+
+            <div class="text">Git</div>
+            <div class="text">GitHub</div>
+            <div class="text">VS Code</div>
+            <div class="text">Figma</div>
+
+          </div>
+        </section>
+
+
+
+        <section class="projects">
+          <div class="project-card1" onclick="showSlider()">
+
+            <div class="gear">⚙️</div>
+            <div class="title">PROJECT<br>SSS</div>
+
+          </div>
+
+        </section>
+
+
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
